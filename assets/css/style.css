@@ -74,15 +74,16 @@ a:link {
     text-decoration: none;
 }
 
-#AboutMe {
+
+.col-lg-8, .col-md-8, .col-xs-12, .col-sm-12 {
   float:left;
   background:#ffffff;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
-  font-size: 20px;
+  font-size: 16px;
   color:#777777;
-  width: 650px;
-  padding: 15px;
 }
+
+#panelist {background:transparent;}
 
 .panel, .panel-default
 {
@@ -136,14 +137,14 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-.container {
+/*.container {
   float:left;
     background-color: #ffffff;
     opacity:1;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size:16px;
     color:#777777;
- }
+ }*/
 
 /*.bio-image{margin-right:40px;}*/
 
